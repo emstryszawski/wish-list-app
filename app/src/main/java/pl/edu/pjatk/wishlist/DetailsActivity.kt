@@ -15,7 +15,7 @@ class DetailsActivity : AppCompatActivity() {
         val wishID = intent.getIntExtra(WISH_ID_EXTRA, -1)
         val wish = wishFromId(wishID)
         if (wish != null) {
-            binding.wishItemThumb.setImageResource(wish.thumb)
+            binding.wishItemThumb.setImageBitmap(wish.thumb)
             binding.wishItemName.text = wish.name
             binding.wishItemLocation.text = wish.location
         }

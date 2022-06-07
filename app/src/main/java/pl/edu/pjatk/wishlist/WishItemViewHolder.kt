@@ -9,7 +9,7 @@ class WishItemViewHolder(
 ) : RecyclerView.ViewHolder(wishItemBinding.root) {
 
     fun bindWish(wish: Wish) {
-        wishItemBinding.wishItemThumb.setImageResource(wish.thumb)
+        wishItemBinding.wishItemThumb.setImageBitmap(wish.thumb)
         wishItemBinding.wishItemName.text = wish.name
         wishItemBinding.wishItemLocation.text = wish.location
 
