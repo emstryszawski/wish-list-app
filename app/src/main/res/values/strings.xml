@@ -3,5 +3,8 @@
     <string name="wish_item_name">Wish Item Name</string>
     <string name="thumb">Thumb</string>
     <string name="wish_item_location">Wish Item Location</string>
+    <string name="wish_item_location_hint">H&amp;M, Złote tarasy</string>
     <string name="add_new_wish">Add new wish</string>
+    <string name="save">Zapisz</string>
+    <string name="wish_item_name_hint">Nazwa</string>
 </resources>

@@ -4,6 +4,7 @@
     package="pl.edu.pjatk.wishlist">
 
     <uses-feature android:name="android.hardware.camera.any" />
+
     <uses-permission android:name="android.permission.CAMERA" />
 
     <application
@@ -16,6 +17,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.WishList"
         tools:targetApi="31">
+        <activity
+            android:name=".NewWishActivity"
+            android:exported="false" />
         <activity
             android:name=".DataActivity"
             android:exported="false" />
